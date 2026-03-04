@@ -1,0 +1,152 @@
+{
+  "data": {
+    "nodeArtists": {
+      "__typename": "NodeArtistConnection",
+      "nodes": [
+        {
+          "__typename": "NodeArtist",
+          "id": "artist-vasquez",
+          "title": "Elena Vasquez",
+          "path": "/artists/elena-vasquez",
+          "body": {
+            "processed": "<p>Elena Vasquez is a Mexican-American painter whose work explores memory, cultural identity, and the emotional resonance of color. Her large-scale abstract canvases have been exhibited in galleries and museums across North America and Europe.</p><h2>Artist Statement</h2><p>\"My paintings are maps of memory. Each color holds a feeling, a place, a moment in time. I paint to remember, and to invite others into those remembered spaces where the boundaries between past and present dissolve.\"</p><h2>Selected Exhibitions</h2><ul><li>2026: \"Color & Memory\" - Meridian Arts Foundation (solo)</li><li>2024: \"Border Stories\" - Museum of Contemporary Art, Los Angeles (group)</li><li>2023: \"Chromatic Fields\" - Galerie Moderne, Paris (solo)</li><li>2022: \"American Visions\" - Whitney Museum, New York (group)</li></ul><h2>Awards</h2><ul><li>2025 Meridian Arts Foundation Fellowship</li><li>2023 Pollock-Krasner Foundation Grant</li><li>2021 Joan Mitchell Foundation Award</li></ul>",
+            "summary": "Elena Vasquez is a Mexican-American painter whose work explores memory, cultural identity, and the emotional resonance of color. Her large-scale abstract canvases have been exhibited in galleries and "
+          },
+          "medium": [
+            {
+              "id": "painting",
+              "name": "painting"
+            }
+          ],
+          "websiteUrl": "https://elenavasquezart.com",
+          "artistType": "Featured Artist",
+          "residencyDates": "January - April 2026",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80",
+            "alt": "Artist Elena Vasquez in her studio",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeArtist",
+          "id": "artist-tanaka",
+          "title": "Kenji Tanaka",
+          "path": "/artists/kenji-tanaka",
+          "body": {
+            "processed": "<p>Kenji Tanaka is a sculptor and installation artist whose work examines the relationship between natural and manufactured environments. Using reclaimed materials, he creates immersive installations that challenge viewers to reconsider their relationship with waste and consumption.</p><h2>Artist Statement</h2><p>\"I see beauty in what others discard. Every piece of reclaimed metal, every fragment of industrial debris carries a history. My work gives these materials a second voice, a chance to tell a different story.\"</p><h2>Notable Works</h2><ul><li>\"Tidal Memory\" - Installation using ocean-recovered plastics, 2025</li><li>\"Industrial Garden\" - Sculptures from reclaimed factory equipment, 2024</li><li>\"The Weight of Things\" - Suspended installation, Meridian Arts Center, 2023</li></ul>",
+            "summary": "Kenji Tanaka is a sculptor and installation artist whose work examines the relationship between natural and manufactured environments. Using reclaimed materials, he creates immersive installations tha"
+          },
+          "medium": [
+            {
+              "id": "sculpture",
+              "name": "sculpture"
+            },
+            {
+              "id": "mixed-media",
+              "name": "mixed-media"
+            }
+          ],
+          "websiteUrl": "https://kenjitanaka.studio",
+          "artistType": "Artist in Residence",
+          "residencyDates": "March - August 2026",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+            "alt": "Sculptor Kenji Tanaka",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeArtist",
+          "id": "artist-osei",
+          "title": "Adwoa Osei",
+          "path": "/artists/adwoa-osei",
+          "body": {
+            "processed": "<p>Adwoa Osei is a textile artist and fiber sculptor whose work draws on West African weaving traditions and contemporary fashion to create large-scale installations that explore themes of diaspora, identity, and belonging.</p><h2>Artist Statement</h2><p>\"Weaving is an ancient act of connection - thread to thread, pattern to pattern, story to story. My work weaves together the traditions of my Ghanaian heritage with the experiences of growing up in America, creating a fabric that holds both.\"</p><h2>Education & Residencies</h2><ul><li>MFA, Fiber Arts - Cranbrook Academy of Art, 2019</li><li>Skowhegan School of Painting & Sculpture, 2020</li><li>Meridian Arts Foundation Artist Residency, 2025</li></ul>",
+            "summary": "Adwoa Osei is a textile artist and fiber sculptor whose work draws on West African weaving traditions and contemporary fashion to create large-scale installations that explore themes of diaspora, iden"
+          },
+          "medium": [
+            {
+              "id": "textile-arts",
+              "name": "textile-arts"
+            },
+            {
+              "id": "mixed-media",
+              "name": "mixed-media"
+            }
+          ],
+          "websiteUrl": "https://adwaosei.art",
+          "artistType": "Grant Recipient",
+          "residencyDates": "September - December 2025",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=800&q=80",
+            "alt": "Textile artist Adwoa Osei",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

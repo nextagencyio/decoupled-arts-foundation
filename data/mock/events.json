@@ -1,0 +1,159 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-opening-vasquez",
+          "title": "Opening Reception: Color & Memory by Elena Vasquez",
+          "path": "/events/opening-color-memory",
+          "body": {
+            "processed": "<p>Join us for the opening reception of \"Color & Memory,\" a comprehensive exhibition of paintings by Elena Vasquez. Meet the artist, enjoy live music, and be among the first to experience this stunning body of work.</p><h2>Evening Program</h2><ul><li>6:00 PM - Doors open, gallery viewing, welcome drinks</li><li>7:00 PM - Remarks by Foundation Director and Curator Dr. Sarah Lindholm</li><li>7:15 PM - Artist talk by Elena Vasquez</li><li>7:45 PM - Q&A with the artist</li><li>8:00 PM - Reception continues with live jazz by the Meridian Trio</li></ul><p>Complimentary wine, beer, and hors d'oeuvres. Free admission for this special event.</p>",
+            "summary": "Join us for the opening reception of \"Color & Memory,\" a comprehensive exhibition of paintings by Elena Vasquez. Meet the artist, enjoy live music, and be among the first to experience this stunning b"
+          },
+          "eventDate": {
+            "timestamp": 1769990400
+          },
+          "endTime": {
+            "timestamp": 1770001200
+          },
+          "location": "Main Gallery, Meridian Arts Center",
+          "eventType": [
+            {
+              "id": "gallery-opening",
+              "name": "gallery-opening"
+            }
+          ],
+          "admission": "Free - RSVP recommended",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+            "alt": "Gallery opening reception with artwork",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-watercolor-workshop",
+          "title": "Spring Watercolor Workshop for Beginners",
+          "path": "/events/watercolor-workshop-spring",
+          "body": {
+            "processed": "<p>Discover the joy of watercolor painting in this beginner-friendly workshop led by local artist and educator Patricia Reeves. No experience necessary - all materials provided.</p><h2>What You'll Learn</h2><ul><li>Basic watercolor techniques: wet-on-wet, wet-on-dry, glazing</li><li>Color mixing and creating a harmonious palette</li><li>Composition fundamentals for landscape and still life</li><li>Creating texture, depth, and atmosphere</li></ul><h2>Details</h2><p>This is a single-day workshop suitable for absolute beginners and those looking to refresh their skills. Each participant will complete 2-3 paintings to take home. Class size limited to 20 for personalized instruction.</p>",
+            "summary": "Discover the joy of watercolor painting in this beginner-friendly workshop led by local artist and educator Patricia Reeves. No experience necessary - all materials provided.What You'll LearnBasic wat"
+          },
+          "eventDate": {
+            "timestamp": 1776006000
+          },
+          "endTime": {
+            "timestamp": 1776024000
+          },
+          "location": "Studio B, Meridian Arts Center",
+          "eventType": [
+            {
+              "id": "workshop",
+              "name": "workshop"
+            }
+          ],
+          "admission": "$65 non-members; $45 members (all materials included)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+            "alt": "Watercolor painting workshop in progress",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-sculpture-talk",
+          "title": "Artist Talk: Kenji Tanaka on Art and Sustainability",
+          "path": "/events/artist-talk-kenji-tanaka",
+          "body": {
+            "processed": "<p>Join artist-in-residence Kenji Tanaka for an evening conversation about the intersection of art, environmental sustainability, and social responsibility.</p><h2>Discussion Topics</h2><ul><li>Using reclaimed and recycled materials as artistic medium</li><li>The artist's role in environmental advocacy</li><li>From waste to wonder: transforming discarded materials</li><li>Community engagement through participatory art projects</li></ul><h2>About the Speaker</h2><p>Kenji Tanaka has spent the past decade creating sculptures and installations from reclaimed materials, challenging viewers to reconsider their relationship with consumption and waste. His work has been featured at the Venice Biennale, Burning Man, and major galleries across three continents.</p>",
+            "summary": "Join artist-in-residence Kenji Tanaka for an evening conversation about the intersection of art, environmental sustainability, and social responsibility.Discussion TopicsUsing reclaimed and recycled m"
+          },
+          "eventDate": {
+            "timestamp": 1777075200
+          },
+          "endTime": {
+            "timestamp": 1777080600
+          },
+          "location": "Auditorium, Meridian Arts Center",
+          "eventType": [
+            {
+              "id": "artist-talk",
+              "name": "artist-talk"
+            }
+          ],
+          "admission": "Free - Open to the public",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Sculptor discussing large-scale installation work",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

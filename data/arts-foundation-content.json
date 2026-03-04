@@ -1,0 +1,554 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Arts & culture foundation homepage with hero, featured exhibitions, and support CTA",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline (e.g., 'Inspiring Through Art')"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer description for the hero section"
+        },
+        {
+          "id": "stats_items",
+          "label": "Statistics",
+          "type": "paragraph(stat_item)[]",
+          "description": "Key foundation statistics"
+        },
+        {
+          "id": "featured_items_title",
+          "label": "Featured Items Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "exhibition",
+      "label": "Exhibition",
+      "description": "Current, upcoming, and past art exhibitions",
+      "body": true,
+      "fields": [
+        {
+          "id": "start_date",
+          "label": "Start Date",
+          "type": "datetime"
+        },
+        {
+          "id": "end_date",
+          "label": "End Date",
+          "type": "datetime"
+        },
+        {
+          "id": "location",
+          "label": "Gallery/Location",
+          "type": "string"
+        },
+        {
+          "id": "exhibition_type",
+          "label": "Exhibition Type",
+          "type": "term(exhibition_types)[]"
+        },
+        {
+          "id": "curator",
+          "label": "Curator",
+          "type": "string"
+        },
+        {
+          "id": "admission",
+          "label": "Admission",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Exhibition Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "artist",
+      "label": "Artist",
+      "description": "Featured artists, residents, and grant recipients",
+      "body": true,
+      "fields": [
+        {
+          "id": "medium",
+          "label": "Medium",
+          "type": "term(art_mediums)[]"
+        },
+        {
+          "id": "website_url",
+          "label": "Website",
+          "type": "string"
+        },
+        {
+          "id": "artist_type",
+          "label": "Artist Type",
+          "type": "string"
+        },
+        {
+          "id": "residency_dates",
+          "label": "Residency Dates",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Artist Photo",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "event",
+      "label": "Event",
+      "description": "Gallery openings, workshops, performances, and community events",
+      "body": true,
+      "fields": [
+        {
+          "id": "event_date",
+          "label": "Event Date",
+          "type": "datetime"
+        },
+        {
+          "id": "end_time",
+          "label": "End Time",
+          "type": "datetime"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string"
+        },
+        {
+          "id": "event_type",
+          "label": "Event Type",
+          "type": "term(event_types)[]"
+        },
+        {
+          "id": "admission",
+          "label": "Admission/Price",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Event Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "news",
+      "label": "News Article",
+      "description": "Foundation news, press releases, and announcements",
+      "body": true,
+      "fields": [
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "type": "term(news_categories)[]"
+        },
+        {
+          "id": "featured",
+          "label": "Featured",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        {
+          "id": "number",
+          "label": "Number",
+          "type": "string!",
+          "description": "The statistic value"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "type": "string!",
+          "description": "What the number represents"
+        }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vid": "exhibition_types",
+      "name": "Exhibition Types",
+      "terms": [
+        { "name": "Solo Exhibition" },
+        { "name": "Group Exhibition" },
+        { "name": "Permanent Collection" },
+        { "name": "Traveling Exhibition" },
+        { "name": "Community Showcase" }
+      ]
+    },
+    {
+      "vid": "art_mediums",
+      "name": "Art Mediums",
+      "terms": [
+        { "name": "Painting" },
+        { "name": "Sculpture" },
+        { "name": "Photography" },
+        { "name": "Mixed Media" },
+        { "name": "Digital Art" },
+        { "name": "Ceramics" },
+        { "name": "Textile Arts" }
+      ]
+    },
+    {
+      "vid": "event_types",
+      "name": "Event Types",
+      "terms": [
+        { "name": "Gallery Opening" },
+        { "name": "Workshop" },
+        { "name": "Artist Talk" },
+        { "name": "Performance" },
+        { "name": "Community Event" },
+        { "name": "Fundraiser" }
+      ]
+    },
+    {
+      "vid": "news_categories",
+      "name": "News Categories",
+      "terms": [
+        { "name": "Exhibitions" },
+        { "name": "Grants & Awards" },
+        { "name": "Community Programs" },
+        { "name": "Foundation News" },
+        { "name": "Artist Spotlights" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-exhibitions",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "28",
+        "label": "Exhibitions Annually"
+      }
+    },
+    {
+      "id": "stat-artists",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "450+",
+        "label": "Artists Supported"
+      }
+    },
+    {
+      "id": "stat-grants",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "$1.8M",
+        "label": "Grants Awarded"
+      }
+    },
+    {
+      "id": "stat-visitors",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "120,000",
+        "label": "Annual Visitors"
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Meridian Arts Foundation",
+        "hero_title": "Where Creativity Comes Alive",
+        "hero_subtitle": "Enriching Our Community Through Art, Culture, and Creative Expression",
+        "hero_description": "<p>The Meridian Arts Foundation nurtures artistic excellence, supports emerging and established artists, and makes the arts accessible to everyone. Through exhibitions, residencies, grants, and education, we believe art has the power to transform lives and strengthen communities.</p>",
+        "stats_items": [
+          "@stat-exhibitions",
+          "@stat-artists",
+          "@stat-grants",
+          "@stat-visitors"
+        ],
+        "featured_items_title": "Current Exhibitions",
+        "cta_title": "Support the Arts",
+        "cta_description": "<p>Your generosity fuels creativity in our community. Become a member, sponsor an exhibition, or make a donation to help us continue bringing world-class art to everyone.</p>",
+        "cta_primary": "Become a Member",
+        "cta_secondary": "Plan Your Visit"
+      }
+    },
+    {
+      "id": "exhibition-color-memory",
+      "type": "node.exhibition",
+      "path": "/exhibitions/color-and-memory",
+      "values": {
+        "title": "Color & Memory: Works by Elena Vasquez",
+        "body": "<p>\"Color & Memory\" presents 35 paintings by Elena Vasquez, spanning two decades of her career exploring the intersections of personal memory, cultural heritage, and chromatic expression.</p><h2>About the Exhibition</h2><p>Vasquez's large-scale canvases use vivid color fields to evoke the emotional landscapes of memory. Drawing on her Mexican-American heritage, the works reference family gatherings, childhood landscapes, and the passage of time through shifting palettes that range from sun-drenched yellows and oranges to contemplative blues and violets.</p><h2>Gallery Guide</h2><ul><li>Gallery 1: Early Works (2006-2012) - Foundations of memory</li><li>Gallery 2: The Migration Series (2013-2018) - Displacement and belonging</li><li>Gallery 3: Recent Works (2019-2026) - Synthesis and reflection</li></ul><p>Free audio guide available for download on our mobile app.</p>",
+        "start_date": "2026-02-01T00:00:00",
+        "end_date": "2026-05-15T00:00:00",
+        "location": "Main Gallery, Meridian Arts Center",
+        "exhibition_type": ["solo-exhibition"],
+        "curator": "Dr. Sarah Lindholm",
+        "admission": "Free for members; $15 adults, $10 seniors, $5 students",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+          "alt": "Abstract painting with vivid colors from Color and Memory exhibition"
+        }
+      }
+    },
+    {
+      "id": "exhibition-new-perspectives",
+      "type": "node.exhibition",
+      "path": "/exhibitions/new-perspectives",
+      "values": {
+        "title": "New Perspectives: Emerging Artists of the Pacific Northwest",
+        "body": "<p>\"New Perspectives\" showcases the work of 12 emerging artists from the Pacific Northwest, selected from over 400 applicants to our annual juried exhibition.</p><h2>Featured Artists</h2><p>This year's exhibition features works in painting, sculpture, photography, mixed media, and digital art that challenge conventional boundaries and offer fresh interpretations of contemporary themes.</p><h2>Themes</h2><ul><li>Environmental resilience and the changing landscape</li><li>Digital identity in the age of AI</li><li>Community and belonging in urban spaces</li><li>The intersection of craft and fine art traditions</li></ul><p>The exhibition is accompanied by a catalog with essays by art critic Michael Torres and interviews with each artist.</p>",
+        "start_date": "2026-03-15T00:00:00",
+        "end_date": "2026-06-30T00:00:00",
+        "location": "East Wing Gallery, Meridian Arts Center",
+        "exhibition_type": ["group-exhibition"],
+        "curator": "James Okafor",
+        "admission": "Free for members; $15 adults, $10 seniors, $5 students",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
+          "alt": "Contemporary art gallery with diverse artworks"
+        }
+      }
+    },
+    {
+      "id": "exhibition-sculpture-garden",
+      "type": "node.exhibition",
+      "path": "/exhibitions/sculpture-garden-permanent",
+      "values": {
+        "title": "The Meridian Sculpture Garden",
+        "body": "<p>The Meridian Sculpture Garden features 24 large-scale outdoor sculptures set among native plantings and walking paths on the grounds of the Meridian Arts Center.</p><h2>Collection Highlights</h2><ul><li>\"Convergence\" by Richard Serra - Two curving steel plates creating a contemplative passageway</li><li>\"Wind Harps\" by Liz Larner - Sound-producing kinetic sculpture that responds to wind</li><li>\"Ancestor Stones\" by Isamu Noguchi - Three carved granite forms honoring the land</li><li>\"Digital Bloom\" by TeamLab - Interactive light installation (evening viewing)</li></ul><h2>Visiting the Garden</h2><p>The Sculpture Garden is open daily from dawn to dusk, with free admission. Guided tours are available Saturdays and Sundays at 11:00 AM and 2:00 PM. Self-guided tour brochures are available at the Visitor Center.</p>",
+        "start_date": "2020-06-01T00:00:00",
+        "end_date": "2030-12-31T00:00:00",
+        "location": "Meridian Arts Center Grounds",
+        "exhibition_type": ["permanent-collection"],
+        "curator": "Foundation Curatorial Team",
+        "admission": "Free",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+          "alt": "Outdoor sculpture garden with large-scale artworks"
+        }
+      }
+    },
+    {
+      "id": "artist-vasquez",
+      "type": "node.artist",
+      "path": "/artists/elena-vasquez",
+      "values": {
+        "title": "Elena Vasquez",
+        "body": "<p>Elena Vasquez is a Mexican-American painter whose work explores memory, cultural identity, and the emotional resonance of color. Her large-scale abstract canvases have been exhibited in galleries and museums across North America and Europe.</p><h2>Artist Statement</h2><p>\"My paintings are maps of memory. Each color holds a feeling, a place, a moment in time. I paint to remember, and to invite others into those remembered spaces where the boundaries between past and present dissolve.\"</p><h2>Selected Exhibitions</h2><ul><li>2026: \"Color & Memory\" - Meridian Arts Foundation (solo)</li><li>2024: \"Border Stories\" - Museum of Contemporary Art, Los Angeles (group)</li><li>2023: \"Chromatic Fields\" - Galerie Moderne, Paris (solo)</li><li>2022: \"American Visions\" - Whitney Museum, New York (group)</li></ul><h2>Awards</h2><ul><li>2025 Meridian Arts Foundation Fellowship</li><li>2023 Pollock-Krasner Foundation Grant</li><li>2021 Joan Mitchell Foundation Award</li></ul>",
+        "medium": ["painting"],
+        "website_url": "https://elenavasquezart.com",
+        "artist_type": "Featured Artist",
+        "residency_dates": "January - April 2026",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&q=80",
+          "alt": "Artist Elena Vasquez in her studio"
+        }
+      }
+    },
+    {
+      "id": "artist-tanaka",
+      "type": "node.artist",
+      "path": "/artists/kenji-tanaka",
+      "values": {
+        "title": "Kenji Tanaka",
+        "body": "<p>Kenji Tanaka is a sculptor and installation artist whose work examines the relationship between natural and manufactured environments. Using reclaimed materials, he creates immersive installations that challenge viewers to reconsider their relationship with waste and consumption.</p><h2>Artist Statement</h2><p>\"I see beauty in what others discard. Every piece of reclaimed metal, every fragment of industrial debris carries a history. My work gives these materials a second voice, a chance to tell a different story.\"</p><h2>Notable Works</h2><ul><li>\"Tidal Memory\" - Installation using ocean-recovered plastics, 2025</li><li>\"Industrial Garden\" - Sculptures from reclaimed factory equipment, 2024</li><li>\"The Weight of Things\" - Suspended installation, Meridian Arts Center, 2023</li></ul>",
+        "medium": ["sculpture", "mixed-media"],
+        "website_url": "https://kenjitanaka.studio",
+        "artist_type": "Artist in Residence",
+        "residency_dates": "March - August 2026",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&q=80",
+          "alt": "Sculptor Kenji Tanaka"
+        }
+      }
+    },
+    {
+      "id": "artist-osei",
+      "type": "node.artist",
+      "path": "/artists/adwoa-osei",
+      "values": {
+        "title": "Adwoa Osei",
+        "body": "<p>Adwoa Osei is a textile artist and fiber sculptor whose work draws on West African weaving traditions and contemporary fashion to create large-scale installations that explore themes of diaspora, identity, and belonging.</p><h2>Artist Statement</h2><p>\"Weaving is an ancient act of connection - thread to thread, pattern to pattern, story to story. My work weaves together the traditions of my Ghanaian heritage with the experiences of growing up in America, creating a fabric that holds both.\"</p><h2>Education & Residencies</h2><ul><li>MFA, Fiber Arts - Cranbrook Academy of Art, 2019</li><li>Skowhegan School of Painting & Sculpture, 2020</li><li>Meridian Arts Foundation Artist Residency, 2025</li></ul>",
+        "medium": ["textile-arts", "mixed-media"],
+        "website_url": "https://adwaosei.art",
+        "artist_type": "Grant Recipient",
+        "residency_dates": "September - December 2025",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=800&q=80",
+          "alt": "Textile artist Adwoa Osei"
+        }
+      }
+    },
+    {
+      "id": "event-opening-vasquez",
+      "type": "node.event",
+      "path": "/events/opening-color-memory",
+      "values": {
+        "title": "Opening Reception: Color & Memory by Elena Vasquez",
+        "body": "<p>Join us for the opening reception of \"Color & Memory,\" a comprehensive exhibition of paintings by Elena Vasquez. Meet the artist, enjoy live music, and be among the first to experience this stunning body of work.</p><h2>Evening Program</h2><ul><li>6:00 PM - Doors open, gallery viewing, welcome drinks</li><li>7:00 PM - Remarks by Foundation Director and Curator Dr. Sarah Lindholm</li><li>7:15 PM - Artist talk by Elena Vasquez</li><li>7:45 PM - Q&A with the artist</li><li>8:00 PM - Reception continues with live jazz by the Meridian Trio</li></ul><p>Complimentary wine, beer, and hors d'oeuvres. Free admission for this special event.</p>",
+        "event_date": "2026-02-01T18:00:00",
+        "end_time": "2026-02-01T21:00:00",
+        "location": "Main Gallery, Meridian Arts Center",
+        "event_type": ["gallery-opening"],
+        "admission": "Free - RSVP recommended",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+          "alt": "Gallery opening reception with artwork"
+        }
+      }
+    },
+    {
+      "id": "event-watercolor-workshop",
+      "type": "node.event",
+      "path": "/events/watercolor-workshop-spring",
+      "values": {
+        "title": "Spring Watercolor Workshop for Beginners",
+        "body": "<p>Discover the joy of watercolor painting in this beginner-friendly workshop led by local artist and educator Patricia Reeves. No experience necessary - all materials provided.</p><h2>What You'll Learn</h2><ul><li>Basic watercolor techniques: wet-on-wet, wet-on-dry, glazing</li><li>Color mixing and creating a harmonious palette</li><li>Composition fundamentals for landscape and still life</li><li>Creating texture, depth, and atmosphere</li></ul><h2>Details</h2><p>This is a single-day workshop suitable for absolute beginners and those looking to refresh their skills. Each participant will complete 2-3 paintings to take home. Class size limited to 20 for personalized instruction.</p>",
+        "event_date": "2026-04-12T10:00:00",
+        "end_time": "2026-04-12T15:00:00",
+        "location": "Studio B, Meridian Arts Center",
+        "event_type": ["workshop"],
+        "admission": "$65 non-members; $45 members (all materials included)",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80",
+          "alt": "Watercolor painting workshop in progress"
+        }
+      }
+    },
+    {
+      "id": "event-sculpture-talk",
+      "type": "node.event",
+      "path": "/events/artist-talk-kenji-tanaka",
+      "values": {
+        "title": "Artist Talk: Kenji Tanaka on Art and Sustainability",
+        "body": "<p>Join artist-in-residence Kenji Tanaka for an evening conversation about the intersection of art, environmental sustainability, and social responsibility.</p><h2>Discussion Topics</h2><ul><li>Using reclaimed and recycled materials as artistic medium</li><li>The artist's role in environmental advocacy</li><li>From waste to wonder: transforming discarded materials</li><li>Community engagement through participatory art projects</li></ul><h2>About the Speaker</h2><p>Kenji Tanaka has spent the past decade creating sculptures and installations from reclaimed materials, challenging viewers to reconsider their relationship with consumption and waste. His work has been featured at the Venice Biennale, Burning Man, and major galleries across three continents.</p>",
+        "event_date": "2026-04-24T19:00:00",
+        "end_time": "2026-04-24T20:30:00",
+        "location": "Auditorium, Meridian Arts Center",
+        "event_type": ["artist-talk"],
+        "admission": "Free - Open to the public",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+          "alt": "Sculptor discussing large-scale installation work"
+        }
+      }
+    },
+    {
+      "id": "news-grant-recipients",
+      "type": "node.news",
+      "path": "/news/2026-artist-grant-recipients",
+      "values": {
+        "title": "Meridian Arts Foundation Announces 2026 Artist Grant Recipients",
+        "body": "<p>The Meridian Arts Foundation is pleased to announce the recipients of the 2026 Artist Grant Program, awarding a total of $450,000 to 15 artists working across a range of disciplines.</p><h2>Grant Categories</h2><ul><li>Established Artist Fellowship ($50,000): Elena Vasquez (painting) and Marcus Webb (photography)</li><li>Mid-Career Award ($30,000): Five artists in sculpture, digital art, and performance</li><li>Emerging Artist Grant ($15,000): Eight early-career artists in various mediums</li></ul><h2>Selection Process</h2><p>A panel of five nationally recognized artists, curators, and arts administrators reviewed 380 applications. Grants are awarded based on artistic merit, professional development potential, and commitment to the arts community.</p><p>\"These grants represent our deepest commitment to supporting artists at every stage of their careers,\" said Foundation Director Catherine Moore. \"The diversity and quality of this year's recipients reflect the extraordinary vitality of our regional arts scene.\"</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+          "alt": "Artists receiving grant awards"
+        },
+        "category": ["grants-awards"],
+        "featured": true
+      }
+    },
+    {
+      "id": "news-expansion",
+      "type": "node.news",
+      "path": "/news/arts-center-expansion",
+      "values": {
+        "title": "Foundation Breaks Ground on $12M Arts Center Expansion",
+        "body": "<p>The Meridian Arts Foundation broke ground on a $12 million expansion of the Meridian Arts Center, adding 15,000 square feet of gallery space, a new education wing, and a 200-seat performance hall.</p><h2>New Facilities</h2><ul><li>Two additional gallery spaces for rotating exhibitions</li><li>Education wing with four classrooms and a digital media lab</li><li>200-seat performance hall for music, dance, and theater</li><li>Expanded artist studios and residency housing</li><li>Rooftop sculpture terrace with city views</li></ul><h2>Timeline</h2><p>Construction is expected to be completed by Fall 2027. During construction, the existing galleries and sculpture garden will remain open to the public. Some programs may be temporarily relocated to partner venues.</p><p>The expansion was made possible through a combination of major donor gifts, a state cultural facilities grant, and a capital campaign that raised $8 million from the community.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+          "alt": "Arts center expansion groundbreaking"
+        },
+        "category": ["foundation-news"],
+        "featured": true
+      }
+    },
+    {
+      "id": "news-youth-program",
+      "type": "node.news",
+      "path": "/news/youth-arts-program-record-enrollment",
+      "values": {
+        "title": "Youth Arts Program Reaches Record Enrollment of 1,200 Students",
+        "body": "<p>The Meridian Arts Foundation's Youth Arts Program has reached record enrollment, with 1,200 students ages 6-18 participating in after-school and summer arts classes across the region.</p><h2>Program Growth</h2><ul><li>42% increase in enrollment over the past three years</li><li>Expanded to 8 school sites and 3 community centers</li><li>Added digital art, filmmaking, and graphic design courses</li><li>100% of students receive full or partial scholarships</li></ul><h2>Student Achievements</h2><p>Youth program participants have won 15 regional art awards this year, and three students have been accepted to prestigious summer arts intensives at the School of the Art Institute of Chicago and CalArts.</p><p>\"Seeing these young artists grow in confidence and skill is the most rewarding part of our work,\" said Youth Programs Director Maria Gonzalez.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+          "alt": "Youth participating in arts education program"
+        },
+        "category": ["community-programs"],
+        "featured": false
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About the Meridian Arts Foundation",
+        "body": "<p>The Meridian Arts Foundation is a nonprofit cultural organization dedicated to supporting artists, presenting exhibitions, and making the arts accessible to everyone in our community.</p><h2>Our Mission</h2><p>To enrich lives through the visual and performing arts by supporting artistic excellence, fostering creative expression, and building a vibrant cultural community.</p><h2>Our History</h2><p>Founded in 1988 by philanthropist and art collector Robert Meridian, the foundation has grown from a small private gallery into a comprehensive arts center with exhibition spaces, artist studios, education programs, and a nationally recognized grant program.</p><h2>What We Do</h2><ul><li>Present 28 exhibitions annually in our gallery spaces</li><li>Award over $1.8 million in artist grants and fellowships each year</li><li>Host an artist residency program supporting 12 artists annually</li><li>Operate youth and adult arts education programs serving 3,000 students</li><li>Maintain a permanent collection of over 800 artworks</li><li>Host performances, lectures, and community events year-round</li></ul>"
+      }
+    },
+    {
+      "id": "page-visit",
+      "type": "node.page",
+      "path": "/visit",
+      "values": {
+        "title": "Plan Your Visit",
+        "body": "<p>The Meridian Arts Center welcomes visitors of all ages to explore our galleries, sculpture garden, and programs.</p><h2>Hours</h2><ul><li>Tuesday - Saturday: 10:00 AM - 6:00 PM</li><li>Thursday: 10:00 AM - 9:00 PM (late night)</li><li>Sunday: 12:00 PM - 5:00 PM</li><li>Monday: Closed</li></ul><h2>Admission</h2><ul><li>Adults: $15</li><li>Seniors (65+): $10</li><li>Students (with ID): $5</li><li>Children under 12: Free</li><li>Members: Always free</li><li>Free admission for all: First Thursday of each month</li></ul><h2>Location</h2><p>Meridian Arts Center, 500 Arts Boulevard, Portland, OR 97205. Free parking available. Accessible by MAX Light Rail (Arts District station).</p><h2>Accessibility</h2><p>The Meridian Arts Center is fully wheelchair accessible. Assistive listening devices are available for gallery talks and events. Large-print gallery guides are available at the front desk.</p>"
+      }
+    }
+  ]
+}

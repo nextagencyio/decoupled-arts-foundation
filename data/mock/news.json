@@ -1,0 +1,138 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-grant-recipients",
+          "title": "Meridian Arts Foundation Announces 2026 Artist Grant Recipients",
+          "path": "/news/2026-artist-grant-recipients",
+          "body": {
+            "processed": "<p>The Meridian Arts Foundation is pleased to announce the recipients of the 2026 Artist Grant Program, awarding a total of $450,000 to 15 artists working across a range of disciplines.</p><h2>Grant Categories</h2><ul><li>Established Artist Fellowship ($50,000): Elena Vasquez (painting) and Marcus Webb (photography)</li><li>Mid-Career Award ($30,000): Five artists in sculpture, digital art, and performance</li><li>Emerging Artist Grant ($15,000): Eight early-career artists in various mediums</li></ul><h2>Selection Process</h2><p>A panel of five nationally recognized artists, curators, and arts administrators reviewed 380 applications. Grants are awarded based on artistic merit, professional development potential, and commitment to the arts community.</p><p>\"These grants represent our deepest commitment to supporting artists at every stage of their careers,\" said Foundation Director Catherine Moore. \"The diversity and quality of this year's recipients reflect the extraordinary vitality of our regional arts scene.\"</p>",
+            "summary": "The Meridian Arts Foundation is pleased to announce the recipients of the 2026 Artist Grant Program, awarding a total of $450,000 to 15 artists working across a range of disciplines.Grant CategoriesEs"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+            "alt": "Artists receiving grant awards",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "grants-awards",
+              "name": "grants-awards"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-expansion",
+          "title": "Foundation Breaks Ground on $12M Arts Center Expansion",
+          "path": "/news/arts-center-expansion",
+          "body": {
+            "processed": "<p>The Meridian Arts Foundation broke ground on a $12 million expansion of the Meridian Arts Center, adding 15,000 square feet of gallery space, a new education wing, and a 200-seat performance hall.</p><h2>New Facilities</h2><ul><li>Two additional gallery spaces for rotating exhibitions</li><li>Education wing with four classrooms and a digital media lab</li><li>200-seat performance hall for music, dance, and theater</li><li>Expanded artist studios and residency housing</li><li>Rooftop sculpture terrace with city views</li></ul><h2>Timeline</h2><p>Construction is expected to be completed by Fall 2027. During construction, the existing galleries and sculpture garden will remain open to the public. Some programs may be temporarily relocated to partner venues.</p><p>The expansion was made possible through a combination of major donor gifts, a state cultural facilities grant, and a capital campaign that raised $8 million from the community.</p>",
+            "summary": "The Meridian Arts Foundation broke ground on a $12 million expansion of the Meridian Arts Center, adding 15,000 square feet of gallery space, a new education wing, and a 200-seat performance hall.New "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+            "alt": "Arts center expansion groundbreaking",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "foundation-news",
+              "name": "foundation-news"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-youth-program",
+          "title": "Youth Arts Program Reaches Record Enrollment of 1,200 Students",
+          "path": "/news/youth-arts-program-record-enrollment",
+          "body": {
+            "processed": "<p>The Meridian Arts Foundation's Youth Arts Program has reached record enrollment, with 1,200 students ages 6-18 participating in after-school and summer arts classes across the region.</p><h2>Program Growth</h2><ul><li>42% increase in enrollment over the past three years</li><li>Expanded to 8 school sites and 3 community centers</li><li>Added digital art, filmmaking, and graphic design courses</li><li>100% of students receive full or partial scholarships</li></ul><h2>Student Achievements</h2><p>Youth program participants have won 15 regional art awards this year, and three students have been accepted to prestigious summer arts intensives at the School of the Art Institute of Chicago and CalArts.</p><p>\"Seeing these young artists grow in confidence and skill is the most rewarding part of our work,\" said Youth Programs Director Maria Gonzalez.</p>",
+            "summary": "The Meridian Arts Foundation's Youth Arts Program has reached record enrollment, with 1,200 students ages 6-18 participating in after-school and summer arts classes across the region.Program Growth42%"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+            "alt": "Youth participating in arts education program",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "category": [
+            {
+              "id": "community-programs",
+              "name": "community-programs"
+            }
+          ],
+          "featured": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Meridian Arts Foundation",
+          "path": "/homepage",
+          "heroTitle": "Where Creativity Comes Alive",
+          "heroSubtitle": "Enriching Our Community Through Art, Culture, and Creative Expression",
+          "heroDescription": {
+            "processed": "<p>The Meridian Arts Foundation nurtures artistic excellence, supports emerging and established artists, and makes the arts accessible to everyone. Through exhibitions, residencies, grants, and education, we believe art has the power to transform lives and strengthen communities.</p>",
+            "summary": "The Meridian Arts Foundation nurtures artistic excellence, supports emerging and established artists, and makes the arts accessible to everyone. Through exhibitions, residencies, grants, and education"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-exhibitions",
+              "title": "",
+              "number": "28",
+              "label": "Exhibitions Annually"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-artists",
+              "title": "",
+              "number": "450+",
+              "label": "Artists Supported"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-grants",
+              "title": "",
+              "number": "$1.8M",
+              "label": "Grants Awarded"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-visitors",
+              "title": "",
+              "number": "120,000",
+              "label": "Annual Visitors"
+            }
+          ],
+          "featuredItemsTitle": "Current Exhibitions",
+          "ctaTitle": "Support the Arts",
+          "ctaDescription": {
+            "processed": "<p>Your generosity fuels creativity in our community. Become a member, sponsor an exhibition, or make a donation to help us continue bringing world-class art to everyone.</p>",
+            "summary": "Your generosity fuels creativity in our community. Become a member, sponsor an exhibition, or make a donation to help us continue bringing world-class art to everyone."
+          },
+          "ctaPrimary": "Become a Member",
+          "ctaSecondary": "Plan Your Visit"
+        }
+      ]
+    }
+  }
+}

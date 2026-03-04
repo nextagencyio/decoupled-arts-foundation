@@ -1,0 +1,162 @@
+{
+  "data": {
+    "nodeExhibitions": {
+      "__typename": "NodeExhibitionConnection",
+      "nodes": [
+        {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-color-memory",
+          "title": "Color & Memory: Works by Elena Vasquez",
+          "path": "/exhibitions/color-and-memory",
+          "body": {
+            "processed": "<p>\"Color & Memory\" presents 35 paintings by Elena Vasquez, spanning two decades of her career exploring the intersections of personal memory, cultural heritage, and chromatic expression.</p><h2>About the Exhibition</h2><p>Vasquez's large-scale canvases use vivid color fields to evoke the emotional landscapes of memory. Drawing on her Mexican-American heritage, the works reference family gatherings, childhood landscapes, and the passage of time through shifting palettes that range from sun-drenched yellows and oranges to contemplative blues and violets.</p><h2>Gallery Guide</h2><ul><li>Gallery 1: Early Works (2006-2012) - Foundations of memory</li><li>Gallery 2: The Migration Series (2013-2018) - Displacement and belonging</li><li>Gallery 3: Recent Works (2019-2026) - Synthesis and reflection</li></ul><p>Free audio guide available for download on our mobile app.</p>",
+            "summary": "\"Color & Memory\" presents 35 paintings by Elena Vasquez, spanning two decades of her career exploring the intersections of personal memory, cultural heritage, and chromatic expression.About the Exhibi"
+          },
+          "startDate": {
+            "timestamp": 1769925600
+          },
+          "endDate": {
+            "timestamp": 1778821200
+          },
+          "location": "Main Gallery, Meridian Arts Center",
+          "exhibitionType": [
+            {
+              "id": "solo-exhibition",
+              "name": "solo-exhibition"
+            }
+          ],
+          "curator": "Dr. Sarah Lindholm",
+          "admission": "Free for members; $15 adults, $10 seniors, $5 students",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+            "alt": "Abstract painting with vivid colors from Color and Memory exhibition",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-new-perspectives",
+          "title": "New Perspectives: Emerging Artists of the Pacific Northwest",
+          "path": "/exhibitions/new-perspectives",
+          "body": {
+            "processed": "<p>\"New Perspectives\" showcases the work of 12 emerging artists from the Pacific Northwest, selected from over 400 applicants to our annual juried exhibition.</p><h2>Featured Artists</h2><p>This year's exhibition features works in painting, sculpture, photography, mixed media, and digital art that challenge conventional boundaries and offer fresh interpretations of contemporary themes.</p><h2>Themes</h2><ul><li>Environmental resilience and the changing landscape</li><li>Digital identity in the age of AI</li><li>Community and belonging in urban spaces</li><li>The intersection of craft and fine art traditions</li></ul><p>The exhibition is accompanied by a catalog with essays by art critic Michael Torres and interviews with each artist.</p>",
+            "summary": "\"New Perspectives\" showcases the work of 12 emerging artists from the Pacific Northwest, selected from over 400 applicants to our annual juried exhibition.Featured ArtistsThis year's exhibition featur"
+          },
+          "startDate": {
+            "timestamp": 1773550800
+          },
+          "endDate": {
+            "timestamp": 1782795600
+          },
+          "location": "East Wing Gallery, Meridian Arts Center",
+          "exhibitionType": [
+            {
+              "id": "group-exhibition",
+              "name": "group-exhibition"
+            }
+          ],
+          "curator": "James Okafor",
+          "admission": "Free for members; $15 adults, $10 seniors, $5 students",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
+            "alt": "Contemporary art gallery with diverse artworks",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeExhibition",
+          "id": "exhibition-sculpture-garden",
+          "title": "The Meridian Sculpture Garden",
+          "path": "/exhibitions/sculpture-garden-permanent",
+          "body": {
+            "processed": "<p>The Meridian Sculpture Garden features 24 large-scale outdoor sculptures set among native plantings and walking paths on the grounds of the Meridian Arts Center.</p><h2>Collection Highlights</h2><ul><li>\"Convergence\" by Richard Serra - Two curving steel plates creating a contemplative passageway</li><li>\"Wind Harps\" by Liz Larner - Sound-producing kinetic sculpture that responds to wind</li><li>\"Ancestor Stones\" by Isamu Noguchi - Three carved granite forms honoring the land</li><li>\"Digital Bloom\" by TeamLab - Interactive light installation (evening viewing)</li></ul><h2>Visiting the Garden</h2><p>The Sculpture Garden is open daily from dawn to dusk, with free admission. Guided tours are available Saturdays and Sundays at 11:00 AM and 2:00 PM. Self-guided tour brochures are available at the Visitor Center.</p>",
+            "summary": "The Meridian Sculpture Garden features 24 large-scale outdoor sculptures set among native plantings and walking paths on the grounds of the Meridian Arts Center.Collection Highlights\"Convergence\" by R"
+          },
+          "startDate": {
+            "timestamp": 1590987600
+          },
+          "endDate": {
+            "timestamp": 1924927200
+          },
+          "location": "Meridian Arts Center Grounds",
+          "exhibitionType": [
+            {
+              "id": "permanent-collection",
+              "name": "permanent-collection"
+            }
+          ],
+          "curator": "Foundation Curatorial Team",
+          "admission": "Free",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Outdoor sculpture garden with large-scale artworks",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
