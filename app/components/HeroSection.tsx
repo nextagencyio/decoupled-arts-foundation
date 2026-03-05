@@ -23,7 +23,7 @@ export default function HeroSection({ homepageContent }: HeroSectionProps) {
         priority
         unoptimized
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-[#faf8f5]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/65" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <p className="text-accent-400 font-serif text-lg tracking-widest uppercase mb-6">
