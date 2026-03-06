@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-exhibitions",
               "title": "",
-              "number": "28",
+              "number": "28", "value": "28",
               "label": "Exhibitions Annually"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-artists",
               "title": "",
-              "number": "450+",
+              "number": "450+", "value": "450+",
               "label": "Artists Supported"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-grants",
               "title": "",
-              "number": "$1.8M",
+              "number": "$1.8M", "value": "$1.8M",
               "label": "Grants Awarded"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-visitors",
               "title": "",
-              "number": "120,000",
+              "number": "120,000", "value": "120,000",
               "label": "Annual Visitors"
             }
           ],
