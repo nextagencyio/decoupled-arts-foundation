@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getExhibitions() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_EXHIBITIONS, { first: 50 })
+    const data = await client.raw(GET_EXHIBITIONS, { first: 50 })
     return data?.nodeExhibitions?.nodes || []
   } catch (error) {
     console.error('Error fetching exhibitions:', error)
@@ -56,7 +56,7 @@ export default async function ExhibitionsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <ExhibitionCard key={item.id} item={item} />
               ))}
             </div>
