@@ -54,7 +54,7 @@ export const GET_EXHIBITIONS = gql`
           }
           location
           exhibitionType {
-            ... on TermInterface {
+            ... on TermExhibitionType {
               id
               name
             }
@@ -99,7 +99,7 @@ export const GET_EXHIBITION_BY_PATH = gql`
             }
             location
             exhibitionType {
-              ... on TermInterface {
+            ... on TermExhibitionType {
                 id
                 name
               }
@@ -138,7 +138,7 @@ export const GET_ARTISTS = gql`
             processed
           }
           medium {
-            ... on TermInterface {
+            ... on TermArtMedium {
               id
               name
             }
@@ -177,7 +177,7 @@ export const GET_ARTIST_BY_PATH = gql`
               processed
             }
             medium {
-              ... on TermInterface {
+            ... on TermArtMedium {
                 id
                 name
               }
@@ -225,7 +225,7 @@ export const GET_EVENTS = gql`
           }
           location
           eventType {
-            ... on TermInterface {
+            ... on TermEventType {
               id
               name
             }
@@ -269,7 +269,7 @@ export const GET_EVENT_BY_PATH = gql`
             }
             location
             eventType {
-              ... on TermInterface {
+            ... on TermEventType {
                 id
                 name
               }
@@ -323,7 +323,7 @@ export const GET_NEWS = gql`
             }
           }
           category {
-            ... on TermInterface {
+            ... on TermNewsCategory {
               id
               name
             }
@@ -363,7 +363,7 @@ export const GET_NEWS_BY_PATH = gql`
               }
             }
             category {
-              ... on TermInterface {
+            ... on TermNewsCategory {
                 id
                 name
               }
@@ -404,7 +404,7 @@ export const GET_NODE_BY_PATH = gql`
             }
             location
             exhibitionType {
-              ... on TermInterface {
+            ... on TermExhibitionType {
                 id
                 name
               }
@@ -426,7 +426,7 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             medium {
-              ... on TermInterface {
+            ... on TermArtMedium {
                 id
                 name
               }
@@ -456,7 +456,7 @@ export const GET_NODE_BY_PATH = gql`
             }
             location
             eventType {
-              ... on TermInterface {
+            ... on TermEventType {
                 id
                 name
               }
@@ -474,7 +474,7 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             category {
-              ... on TermInterface {
+            ... on TermNewsCategory {
                 id
                 name
               }
@@ -527,7 +527,7 @@ export const GET_FEATURED_EXHIBITIONS = gql`
           }
           location
           exhibitionType {
-            ... on TermInterface {
+            ... on TermExhibitionType {
               id
               name
             }
@@ -574,7 +574,7 @@ export const GET_FEATURED_NEWS = gql`
             }
           }
           category {
-            ... on TermInterface {
+            ... on TermNewsCategory {
               id
               name
             }
@@ -600,7 +600,7 @@ export const GET_UPCOMING_EVENTS = gql`
           }
           location
           eventType {
-            ... on TermInterface {
+            ... on TermEventType {
               id
               name
             }
